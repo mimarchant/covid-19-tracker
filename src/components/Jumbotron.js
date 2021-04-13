@@ -19,8 +19,9 @@ const Jumbotron = (props) => {
                 Check Covid-19 WHO Website
               </a>
             </div>
-            Countries Affected: {props.countryNumbers}
+            
           </div>
+          <h3 className="text-white"><strong>Countries Affected:</strong> {props.countryNumbers}</h3>
         </div>
       </div>
     </header>

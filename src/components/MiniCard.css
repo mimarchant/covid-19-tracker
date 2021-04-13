@@ -1,0 +1,16 @@
+.card-body {
+    
+    color: white;
+}
+
+.warning-danger {
+    background-color: #912046;
+}
+.not-warning {
+    background-color: #8DC73F;
+}
+
+.warning {
+    background-color: #FD7400;
+}
+

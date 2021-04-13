@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = (props) => {
   return (
@@ -17,16 +18,16 @@ const NavBar = (props) => {
           </li>
 
           <li className="nav-item me-3 me-lg-0 dropdown">
-            <a
+            <Link
               className="nav-link dropdown-toggle"
-              href="#"
+              to="/country"
               id="navbarDropdown"
               role="button"
               data-mdb-toggle="dropdown"
               aria-expanded="false"
             >
               <i className="fas fa-user"></i>
-            </a>
+            </Link>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
                 <a className="dropdown-item" href="#">
