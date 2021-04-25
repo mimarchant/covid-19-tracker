@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 
 import Jumbotron from "../components/Jumbotron";
+import Legend from "../components/Legend";
 import MiniCard from "../components/MiniCard";
-import MiniCardList from "../components/MiniCardList";
+
 
 const Home = (props) => {
   const [continents, setContinents] = useState(null);
@@ -36,6 +37,7 @@ const Home = (props) => {
         <div className="col">
           {!!continents && <Jumbotron countryNumbers={totalCountries} />}
         </div>
+        <Legend />
       </div>
       <div className="row ml-4 pt-3">
         {!!continents &&

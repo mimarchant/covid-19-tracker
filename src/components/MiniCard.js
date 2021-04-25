@@ -8,20 +8,20 @@ const MiniCard = (props) => {
         <h5 className="card-title text-center "><strong>{props.name}</strong></h5>
       </div>
       <ul className="list-group list-group-flush">
-        <li className="list-group-item">
-          <b>Population:</b> {props.population} people
+        <li className="list-group-item pr-0">
+          <b>Population:</b><span className="float-right">{props.population} people</span>
         </li>
-        <li className="list-group-item">
-          <b>Today cases:</b> {props.today}
+        <li className="list-group-item pr-0">
+          <b>Today cases:</b><span className="float-right">{props.today}</span> 
         </li>
-        <li className="list-group-item">
-          <b>Total cases:</b> {props.totalcases}
+        <li className="list-group-item pr-0">
+          <b>Total cases:</b><span className="float-right">{props.totalcases}</span> 
         </li>
-        <li className="list-group-item">
-          <b>Today deaths:</b> {props.todaydeaths}
+        <li className="list-group-item pr-0">
+          <b>Today deaths:</b><span className="float-right">{props.todaydeaths}</span> 
         </li>
-        <li className="list-group-item">
-          <b>Total deaths:</b> {props.totaldeaths}
+        <li className="list-group-item pr-0">
+          <b>Total deaths:</b><span className="float-right">{props.totaldeaths}</span> 
         </li>
       </ul>
     </div>
